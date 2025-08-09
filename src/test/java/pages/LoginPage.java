@@ -14,17 +14,20 @@ public class LoginPage {
 	By emailField = By.id("username");
 	By passwordField = By.id("password");
 	By loginButton = By.xpath("//button[@aria-label='Sign in']");
+	By errorMessage = By.id("error-for-password");
 	
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
 		this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 	}
 	
-	public void performLogin(String email, String pass) throws InterruptedException {
+	public void performLogin(String email, String pass){
 		driver.findElement(emailField).sendKeys(email);
-		Thread.sleep(2000);
 		driver.findElement(passwordField).sendKeys(pass);
-		Thread.sleep(2000);
 		driver.findElement(loginButton).click();
+	}
+	
+	public String getErrorMessage() {
+		return driver.findElement(errorMessage).getText();
 	}
 }

@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-05T00:19:01 IST" name="Default suite" finished-at="2025-08-05T00:19:33 IST" duration-ms="32432">
+  <suite started-at="2025-08-09T16:11:54 IST" name="Default suite" finished-at="2025-08-09T16:12:23 IST" duration-ms="29072">
     <groups>
     </groups>
-    <test started-at="2025-08-05T00:19:01 IST" name="Default test" finished-at="2025-08-05T00:19:33 IST" duration-ms="32432">
-      <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@1d296da]" started-at="2025-08-05T00:19:01 IST" name="setUp" finished-at="2025-08-05T00:19:06 IST" duration-ms="5704" status="PASS">
+    <test started-at="2025-08-09T16:11:54 IST" name="Default test" finished-at="2025-08-09T16:12:23 IST" duration-ms="29072">
+      <class name="tests.PostCheck">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.PostCheck@48f2bd5b]" started-at="2025-08-09T16:11:54 IST" name="setUp" finished-at="2025-08-09T16:11:58 IST" duration-ms="3915" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validLogin()[pri:0, instance:tests.LoginTest@1d296da]" started-at="2025-08-05T00:19:06 IST" name="validLogin" finished-at="2025-08-05T00:19:32 IST" duration-ms="26057" status="PASS">
+        <test-method signature="createPost()[pri:0, instance:tests.PostCheck@48f2bd5b]" started-at="2025-08-09T16:11:58 IST" name="createPost" finished-at="2025-08-09T16:12:22 IST" duration-ms="24229" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@1d296da]" started-at="2025-08-05T00:19:33 IST" name="tearDown" finished-at="2025-08-05T00:19:33 IST" duration-ms="574" status="PASS">
+        </test-method> <!-- createPost -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PostCheck@48f2bd5b]" started-at="2025-08-09T16:12:22 IST" name="tearDown" finished-at="2025-08-09T16:12:23 IST" duration-ms="823" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.LoginTest -->
+      </class> <!-- tests.PostCheck -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
